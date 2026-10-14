@@ -12,8 +12,8 @@ members = [
 def verification(e):
     
     # Get the first and last names
-    Fname = document.querySelector("#first-name").value.strip()
-    Lname = document.querySelector("#last-name").value.strip()
+    Fname = document.querySelector("#Fname").value.strip()
+    Lname = document.querySelector("#Lname").value.strip()
 
     # Combine the names
     name = (Fname + " " + Lname).title()
